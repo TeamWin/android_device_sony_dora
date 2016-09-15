@@ -38,4 +38,18 @@ insmod /sbin/texfat.ko
 umount /system
 
 mkdir -p /system/vendor/lib64/hw
-cp /sbin/keystore.msm8996.so /system/vendor/lib64/hw/keystore.msm8996.so
+cp /sbin/lib-sec-disp.so /vendor/lib64/lib-sec-disp.so
+cp /sbin/libGPreqcancel.so /vendor/lib64/libGPreqcancel.so
+cp /sbin/libGPreqcancel_svc.so /vendor/lib64/libGPreqcancel_svc.so
+cp /sbin/libQSEEComAPI.so /vendor/lib64/libQSEEComAPI.so
+cp /sbin/libStDrvInt.so /vendor/lib64/libStDrvInt.so
+cp /sbin/keystore.msm8996.so /vendor/lib64/hw/keystore.msm8996.so
+cp /sbin/libdiag.so /vendor/lib64/libdiag.so
+cp /sbin/libdrmfs.so /vendor/lib64/libdrmfs.so
+cp /sbin/libdrmtime.so /vendor/lib64/libdrmtime.so
+cp /sbin/libqisl.so /vendor/lib64/libqisl.so
+cp /sbin/librpmb.so /vendor/lib64/librpmb.so
+cp /sbin/libsecureui.so /vendor/lib64/libsecureui.so
+cp /sbin/libsecureui_svcsock.so /vendor/lib64/libsecureui_svcsock.so
+cp /sbin/libssd.so /vendor/lib64/libssd.so
+cp /sbin/libtime_genoff.so /vendor/lib64/libtime_genoff.so
