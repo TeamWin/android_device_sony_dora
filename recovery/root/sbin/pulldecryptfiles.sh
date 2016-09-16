@@ -37,7 +37,7 @@ insmod /sbin/texfat.ko
 
 umount /system
 
-mkdir -p /system/vendor/lib64/hw
+mkdir -p /vendor/lib64/hw
 cp /sbin/lib-sec-disp.so /vendor/lib64/lib-sec-disp.so
 cp /sbin/libGPreqcancel.so /vendor/lib64/libGPreqcancel.so
 cp /sbin/libGPreqcancel_svc.so /vendor/lib64/libGPreqcancel_svc.so
